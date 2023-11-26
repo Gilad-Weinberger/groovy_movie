@@ -1,0 +1,2289 @@
+{
+  "movies": [
+    {
+      "id": "00001",
+      "name": "Harry Potter and the Philosopher's Stone",
+      "series": "Harry Potter",
+      "fontFamily": "Harry Potter",
+      "description": "An orphaned boy enrolls in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world.",
+      "trailerVideo": "../data/trailers/HarryPotterAndTheSorcerersStone1.mp4",
+      "players": [
+        {
+          "character": "Harry Potter",
+          "name": "Daniel Radcliffe",
+          "id": "0000001"
+        },
+        {
+          "character": "Ron Weasley",
+          "name": "Rupert Grint",
+          "id": "0000002"
+        },
+        {
+          "character": "Hermione Granger",
+          "name": "Emma Watson",
+          "id": "0000003"
+        },
+        {
+          "character": "Albus Dumbledore",
+          "name": "Richard Harris",
+          "id": "0000004"
+        },
+        {
+          "character": "Katie Bell",
+          "name": "Emily Dale",
+          "id": "0000005"
+        },
+        {
+          "character": "The Bloody Baron",
+          "name": "Terence Bayler",
+          "id": "0000006"
+        },
+        {
+          "character": "Susan Bones",
+          "name": "Eleanor Columbus",
+          "id": "0000007"
+        },
+        {
+          "character": "Vincent Crabbe",
+          "name": "Jamie Waylett",
+          "id": "0000008"
+        },
+        {
+          "character": "Dedalus Diggle",
+          "name": "David Brett",
+          "id": "0000009"
+        },
+        {
+          "character": "Dudley Dursley",
+          "name": "Harry Melling",
+          "id": "0000010"
+        },
+        {
+          "character": "Petunia Dursley",
+          "name": "Fiona Shaw",
+          "id": "0000011"
+        },
+        {
+          "character": "Vernon Dursley",
+          "name": "Richard Griffiths",
+          "id": "0000012"
+        },
+        {
+          "character": "The Fat Friar",
+          "name": "Simon Fisher-Becker",
+          "id": "0000013"
+        },
+        {
+          "character": "The Fat Lady",
+          "name": "Elizabeth Spriggs",
+          "id": "0000014"
+        },
+        {
+          "character": "Marcus Flint",
+          "name": "Jamie Yeates",
+          "id": "0000015"
+        },
+        {
+          "character": "Argus Filch",
+          "name": "David Bradley",
+          "id": "0000016"
+        },
+        {
+          "character": "Seamus Finnigan",
+          "name": "Devon Murray",
+          "id": "0000017"
+        },
+        {
+          "character": "Filius Flitwick",
+          "name": "Warwick Davis",
+          "id": "0000018"
+        },
+        {
+          "character": "Griphook",
+          "name": "Warwick Davis",
+          "id": "0000018"
+        },
+        {
+          "character": "Firenze",
+          "name": "Ray Fearon",
+          "id": "0000019"
+        },
+        {
+          "character": "Gregory Goyle",
+          "name": "Joshua Herdman",
+          "id": "0000020"
+        },
+        {
+          "character": "Rubeus Hagrid",
+          "name": "Robbie Coltrane",
+          "id": "0000022"
+        },
+        {
+          "character": "Rolanda Hooch",
+          "name": "Zoë Wanamaker",
+          "id": "0000023"
+        },
+        {
+          "character": "Angelina Johnson",
+          "name": "Danielle Tabor",
+          "id": "0000024"
+        },
+        {
+          "character": "Lee Jordan",
+          "name": "Luke Youngblood",
+          "id": "0000025"
+        },
+        {
+          "character": "Neville Longbottom",
+          "name": "Matthew Lewis",
+          "id": "0000026"
+        },
+        {
+          "character": "Draco Malfoy",
+          "name": "Tom Felton",
+          "id": "0000027"
+        },
+        {
+          "character": "Minerva McGonagall",
+          "name": "Maggie Smith",
+          "id": "0000028"
+        },
+        {
+          "character": "Sir Nicholas de Mimsy Porpington (Nearly Headless Nick)",
+          "name": "John Cleese",
+          "id": "0000029"
+        },
+        {
+          "character": "Garrick Ollivander",
+          "name": "John Hurt",
+          "id": "0000030"
+        },
+        {
+          "character": "James Potter",
+          "name": "Adrian Rawlins",
+          "id": "0000031"
+        },
+        {
+          "character": "Lily Potter",
+          "name": "Geraldine Somerville",
+          "id": "0000032"
+        },
+        {
+          "character": "Quirinus Quirrell",
+          "name": "Ian Hart",
+          "id": "0000033"
+        },
+        {
+          "character": "Helena Ravenclaw (The Grey Lady)",
+          "name": "Nina Young",
+          "id": "0000034"
+        },
+        {
+          "character": "Severus Snape",
+          "name": "Alan Rickman",
+          "id": "0000035"
+        },
+        {
+          "character": "Sorting Hat",
+          "name": "Leslie Phillips",
+          "id": "0000036"
+        },
+        {
+          "character": "Dean Thomas",
+          "name": "Alfred Enoch",
+          "id": "0000037"
+        },
+        {
+          "character": "Tom",
+          "name": "Christian Coulson",
+          "id": "0000038"
+        },
+        {
+          "character": "Lord Voldemort (Tom Riddle)",
+          "name": "Richard Bremmer",
+          "id": "0000039"
+        },
+        {
+          "character": "Fred Weasley",
+          "name": "James Phelps",
+          "id": "0000040"
+        },
+        {
+          "character": "George Weasley",
+          "name": "Oliver Phelps",
+          "id": "0000041"
+        },
+        {
+          "character": "Ginny Weasley",
+          "name": "Bonnie Wright",
+          "id": "0000042"
+        },
+        {
+          "character": "Molly Weasley",
+          "name": "Julie Walters",
+          "id": "0000043"
+        },
+        {
+          "character": "Percy Weasley",
+          "name": "Chris Rankin",
+          "id": "0000044"
+        },
+        {
+          "character": "Oliver Wood",
+          "name": "Sean Biggerstaff",
+          "id": "0000045"
+        }
+      ],
+      "rating": 7.6,
+      "ratings-count": 818000,
+      "length": 152,
+      "year": 2001,
+      "categories": ["Adventure", "Family", "Fantasy"]
+    },
+    {
+      "id": "00002",
+      "name": "Harry Potter and the Chamber of Secrets",
+      "series": "Harry Potter",
+      "fontFamily": "Harry Potter",
+      "description": "Harry ignores warnings not to return to Hogwarts, only to find the school plagued by a series of mysterious attacks and a strange voice haunting him.",
+      "trailerVideo": "../data/trailers/HarryPotterAndTheSorcerersStone1.mp4",
+      "players": [
+        {
+          "character": "Harry Potter",
+          "name": "Daniel Radcliffe",
+          "id": "0000001"
+        },
+        {
+          "character": "Ron Weasley",
+          "name": "Rupert Grint",
+          "id": "0000002"
+        },
+        {
+          "character": "Hermione Granger",
+          "name": "Emma Watson",
+          "id": "0000003"
+        },
+        {
+          "character": "Albus Dumbledore",
+          "name": "Richard Harris",
+          "id": "0000004"
+        },
+        {
+          "character": "Katie Bell",
+          "name": "Emily Dale",
+          "id": "0000005"
+        },
+        {
+          "character": "Susan Bones",
+          "name": "Eleanor Columbus",
+          "id": "0000007"
+        },
+        {
+          "character": "Vincent Crabbe",
+          "name": "Jamie Waylett",
+          "id": "0000008"
+        },
+        {
+          "character": "Dudley Dursley",
+          "name": "Harry Melling",
+          "id": "0000010"
+        },
+        {
+          "character": "Petunia Dursley",
+          "name": "Fiona Shaw",
+          "id": "0000011"
+        },
+        {
+          "character": "Vernon Dursley",
+          "name": "Richard Griffiths",
+          "id": "0000012"
+        },
+        {
+          "character": "Marcus Flint",
+          "name": "Jamie Yeates",
+          "id": "0000015"
+        },
+        {
+          "character": "Argus Filch",
+          "name": "David Bradley",
+          "id": "0000016"
+        },
+        {
+          "character": "Seamus Finnigan",
+          "name": "Devon Murray",
+          "id": "0000017"
+        },
+        {
+          "character": "Filius Flitwick",
+          "name": "Warwick Davis",
+          "id": "0000018"
+        },
+        {
+          "character": "Gregory Goyle",
+          "name": "Joshua Herdman",
+          "id": "0000020"
+        },
+        {
+          "character": "Rubeus Hagrid",
+          "name": "Robbie Coltrane",
+          "id": "0000022"
+        },
+        {
+          "character": "Angelina Johnson",
+          "name": "Danielle Tabor",
+          "id": "0000024"
+        },
+        {
+          "character": "Lee Jordan",
+          "name": "Luke Youngblood",
+          "id": "0000025"
+        },
+        {
+          "character": "Neville Longbottom",
+          "name": "Matthew Lewis",
+          "id": "0000026"
+        },
+        {
+          "character": "Draco Malfoy",
+          "name": "Tom Felton",
+          "id": "0000027"
+        },
+        {
+          "character": "Minerva McGonagall",
+          "name": "Maggie Smith",
+          "id": "0000028"
+        },
+        {
+          "character": "Sir Nicholas de Mimsy Porpington (Nearly Headless Nick)",
+          "name": "John Cleese",
+          "id": "0000029"
+        },
+        {
+          "character": "James Potter",
+          "name": "Adrian Rawlins",
+          "id": "0000031"
+        },
+        {
+          "character": "Lily Potter",
+          "name": "Geraldine Somerville",
+          "id": "0000032"
+        },
+        {
+          "character": "Severus Snape",
+          "name": "Alan Rickman",
+          "id": "0000035"
+        },
+        {
+          "character": "Sorting Hat",
+          "name": "Leslie Phillips",
+          "id": "0000036"
+        },
+        {
+          "character": "Dean Thomas",
+          "name": "Alfred Enoch",
+          "id": "0000037"
+        },
+        {
+          "character": "Lord Voldemort (Tom Riddle)",
+          "name": "Christian Coulson",
+          "id": "0000038"
+        },
+        {
+          "character": "Fred Weasley",
+          "name": "James Phelps",
+          "id": "0000040"
+        },
+        {
+          "character": "George Weasley",
+          "name": "Oliver Phelps",
+          "id": "0000041"
+        },
+        {
+          "character": "Ginny Weasley",
+          "name": "Bonnie Wright",
+          "id": "0000042"
+        },
+        {
+          "character": "Molly Weasley",
+          "name": "Julie Walters",
+          "id": "0000043"
+        },
+        {
+          "character": "Percy Weasley",
+          "name": "Chris Rankin",
+          "id": "0000044"
+        },
+        {
+          "character": "Oliver Wood",
+          "name": "Sean Biggerstaff",
+          "id": "0000045"
+        },
+        {
+          "character": "Gilderoy Lockhart",
+          "name": "Kenneth Branagh",
+          "id": "0000068"
+        },
+        {
+          "character": "Lucius Malfoy",
+          "name": "Jason Isaacs",
+          "id": "0000069"
+        },
+        {
+          "character": "Poppy Pomfrey",
+          "name": "Gemma Jones",
+          "id": "0000074"
+        },
+        {
+          "character": "Pomona Sprout",
+          "name": "Miriam Margolyes",
+          "id": "0000077"
+        },
+        {
+          "character": "Arthur Weasley",
+          "name": "Mark Williams",
+          "id": "0000082"
+        },
+        {
+          "character": "Hannah Abbott",
+          "name": "Charlotte Skeoch",
+          "id": "0000085"
+        },
+        {
+          "character": "Aragog",
+          "name": "Julian Glover",
+          "id": "0000086"
+        },
+        {
+          "character": "Mr Borgin",
+          "name": "Edward Tudor-Pole",
+          "id": "0000087"
+        },
+        {
+          "character": "Colin Creevey",
+          "name": "Hugh Mitchell",
+          "id": "0000088"
+        },
+        {
+          "character": "Armando Dippet",
+          "name": "Alfred Burke",
+          "id": "0000089"
+        },
+        {
+          "character": "Dobby",
+          "name": "Toby Jones",
+          "id": "0000090"
+        },
+        {
+          "character": "Justin Finch-Fletchley",
+          "name": "Edward Randell",
+          "id": "0000091"
+        },
+        {
+          "character": "Cornelius Fudge",
+          "name": "Robert Hardy",
+          "id": "0000092"
+        },
+        {
+          "character": "Mr Granger",
+          "name": "Tom Knight",
+          "id": "0000093"
+        },
+        {
+          "character": "Mrs Granger",
+          "name": "Heather Bleasdale",
+          "id": "0000094"
+        },
+        {
+          "character": "Moaning Myrtle",
+          "name": "Shirley Henderson",
+          "id": "0000095"
+        },
+        {
+          "character": "Irma Pince",
+          "name": "Sally Mortemore",
+          "id": "0000096"
+        }
+      ],
+      "rating": 7.4,
+      "ratings-count": 663000,
+      "length": 161,
+      "year": 2002,
+      "categories": ["Adventure", "Family", "Fantasy"]
+    },
+    {
+      "id": "00003",
+      "name": "Harry Potter and the Prisoner of Azkaban",
+      "series": "Harry Potter",
+      "fontFamily": "Harry Potter",
+      "description": "Harry Potter learns that Sirius Black, a convicted murderer and believed to be one of Lord Voldemort's old allies, is the one who betrayed his parents. He finds out about the existence of Sirius Black, a prisoner who escaped from the Azkaban prison to murder him.",
+      "trailerVideo": "../data/trailers/HarryPotterAndTheSorcerersStone1.mp4",
+      "players": [
+        {
+          "character": "Harry Potter",
+          "name": "Daniel Radcliffe",
+          "id": "0000001"
+        },
+        {
+          "character": "Ron Weasley",
+          "name": "Rupert Grint",
+          "id": "0000002"
+        },
+        {
+          "character": "Hermione Granger",
+          "name": "Emma Watson",
+          "id": "0000003"
+        },
+        {
+          "character": "Vincent Crabbe",
+          "name": "Jamie Waylett",
+          "id": "0000008"
+        },
+        {
+          "character": "Dudley Dursley",
+          "name": "Harry Melling",
+          "id": "0000010"
+        },
+        {
+          "character": "Petunia Dursley",
+          "name": "Fiona Shaw",
+          "id": "0000011"
+        },
+        {
+          "character": "Vernon Dursley",
+          "name": "Richard Griffiths",
+          "id": "0000012"
+        },
+        {
+          "character": "Argus Filch",
+          "name": "David Bradley",
+          "id": "0000016"
+        },
+        {
+          "character": "Seamus Finnigan",
+          "name": "Devon Murray",
+          "id": "0000017"
+        },
+        {
+          "character": "Filius Flitwick",
+          "name": "Warwick Davis",
+          "id": "0000018"
+        },
+        {
+          "character": "Gregory Goyle",
+          "name": "Joshua Herdman",
+          "id": "0000020"
+        },
+        {
+          "character": "Rubeus Hagrid",
+          "name": "Robbie Coltrane",
+          "id": "0000022"
+        },
+        {
+          "character": "Angelina Johnson",
+          "name": "Danielle Tabor",
+          "id": "0000024"
+        },
+        {
+          "character": "Neville Longbottom",
+          "name": "Matthew Lewis",
+          "id": "0000026"
+        },
+        {
+          "character": "Draco Malfoy",
+          "name": "Tom Felton",
+          "id": "0000027"
+        },
+        {
+          "character": "Minerva McGonagall",
+          "name": "Maggie Smith",
+          "id": "0000028"
+        },
+        {
+          "character": "James Potter",
+          "name": "Adrian Rawlins",
+          "id": "0000031"
+        },
+        {
+          "character": "Lily Potter",
+          "name": "Geraldine Somerville",
+          "id": "0000032"
+        },
+        {
+          "character": "Severus Snape",
+          "name": "Alan Rickman",
+          "id": "0000035"
+        },
+        {
+          "character": "Dean Thomas",
+          "name": "Alfred Enoch",
+          "id": "0000037"
+        },
+        {
+          "character": "Fred Weasley",
+          "name": "James Phelps",
+          "id": "0000040"
+        },
+        {
+          "character": "George Weasley",
+          "name": "Oliver Phelps",
+          "id": "0000041"
+        },
+        {
+          "character": "Ginny Weasley",
+          "name": "Bonnie Wright",
+          "id": "0000042"
+        },
+        {
+          "character": "Molly Weasley",
+          "name": "Julie Walters",
+          "id": "0000043"
+        },
+        {
+          "character": "Percy Weasley",
+          "name": "Chris Rankin",
+          "id": "0000044"
+        },
+        {
+          "character": "Arthur Weasley",
+          "name": "Mark Williams",
+          "id": "0000082"
+        },
+        {
+          "character": "Cornelius Fudge",
+          "name": "Robert Hardy",
+          "id": "0000092"
+        },
+        {
+          "character": "Albus Dumbledore",
+          "name": "Michael Gambon",
+          "id": "0000100"
+        },
+        {
+          "character": "Lavender Brown",
+          "name": "Jennifer Smith",
+          "id": "0000101"
+        },
+        {
+          "character": "Sir Cadogan",
+          "name": "Paul Whitehouse",
+          "id": "0000102"
+        },
+        {
+          "character": "Marge Dursley",
+          "name": "Pam Ferris",
+          "id": "0000107"
+        },
+        {
+          "character": "The Fat Lady",
+          "name": "Dawn French",
+          "id": "0000108"
+        },
+        {
+          "character": "Shrunken Head",
+          "name": "Lenny Henry",
+          "id": "0000112"
+        },
+        {
+          "character": "Sirius Black",
+          "name": "Gary Oldman",
+          "id": "0000115"
+        },
+        {
+          "character": "Remus Lupin",
+          "name": "David Thewlis",
+          "id": "0000119"
+        },
+        {
+          "character": "Pansy Parkinson",
+          "name": "Genevieve Gaunt",
+          "id": "0000122"
+        },
+        {
+          "character": "Parvati Patil",
+          "name": "Sitara Shah",
+          "id": "0000123"
+        },
+        {
+          "character": "Ernie Prang",
+          "name": "Jimmy Gardner",
+          "id": "0000124"
+        },
+        {
+          "character": "Madam Rosmerta",
+          "name": "Julie Christie",
+          "id": "0000125"
+        },
+        {
+          "character": "Stan Shunpike",
+          "name": "Lee Inglleby",
+          "id": "0000126"
+        },
+        {
+          "character": "Sybill Trelawney",
+          "name": "Emma Thompson",
+          "id": "0000127"
+        },
+        {
+          "character": "Peter Pettigrew",
+          "name": "Timothy Spall",
+          "id": "0000130"
+        },
+        {
+          "character": "Bill Weasley",
+          "name": "Richard Fish",
+          "id": "0000138"
+        },
+        {
+          "character": "Charlie Weasley",
+          "name": "Alex Crockford",
+          "id": "0000139"
+        }
+      ],
+      "rating": 7.9,
+      "ratings-count": 712000,
+      "length": 142,
+      "year": 2004,
+      "categories": ["Adventure", "Family", "Fantasy"]
+    },
+    {
+      "id": "00004",
+      "name": "Harry Potter and the Goblet of Fire",
+      "series": "Harry Potter",
+      "fontFamily": "Harry Potter",
+      "description": "Harry Potter finds himself competing in a hazardous tournament between rival schools of magic, but he is distracted by recurring nightmares.",
+      "trailerVideo": "../data/trailers/HarryPotterAndTheSorcerersStone1.mp4",
+      "players": [
+        {
+          "character": "Harry Potter",
+          "name": "Daniel Radcliffe",
+          "id": "0000001"
+        },
+        {
+          "character": "Ron Weasley",
+          "name": "Rupert Grint",
+          "id": "0000002"
+        },
+        {
+          "character": "Hermione Granger",
+          "name": "Emma Watson",
+          "id": "0000003"
+        },
+        {
+          "character": "Vincent Crabbe",
+          "name": "Jamie Waylett",
+          "id": "0000008"
+        },
+        {
+          "character": "Argus Filch",
+          "name": "David Bradley",
+          "id": "0000016"
+        },
+        {
+          "character": "Seamus Finnigan",
+          "name": "Devon Murray",
+          "id": "0000017"
+        },
+        {
+          "character": "Filius Flitwick",
+          "name": "Warwick Davis",
+          "id": "0000018"
+        },
+        {
+          "character": "Gregory Goyle",
+          "name": "Joshua Herdman",
+          "id": "0000020"
+        },
+        {
+          "character": "Rubeus Hagrid",
+          "name": "Robbie Coltrane",
+          "id": "0000022"
+        },
+        {
+          "character": "Neville Longbottom",
+          "name": "Matthew Lewis",
+          "id": "0000026"
+        },
+        {
+          "character": "Draco Malfoy",
+          "name": "Tom Felton",
+          "id": "0000027"
+        },
+        {
+          "character": "Minerva McGonagall",
+          "name": "Maggie Smith",
+          "id": "0000028"
+        },
+        {
+          "character": "James Potter",
+          "name": "Adrian Rawlins",
+          "id": "0000031"
+        },
+        {
+          "character": "Lily Potter",
+          "name": "Geraldine Somerville",
+          "id": "0000032"
+        },
+        {
+          "character": "Severus Snape",
+          "name": "Alan Rickman",
+          "id": "0000035"
+        },
+        {
+          "character": "Dean Thomas",
+          "name": "Alfred Enoch",
+          "id": "0000037"
+        },
+        {
+          "character": "Fred Weasley",
+          "name": "James Phelps",
+          "id": "0000040"
+        },
+        {
+          "character": "George Weasley",
+          "name": "Oliver Phelps",
+          "id": "0000041"
+        },
+        {
+          "character": "Ginny Weasley",
+          "name": "Bonnie Wright",
+          "id": "0000042"
+        },
+        {
+          "character": "Lucius Malfoy",
+          "name": "Jason Isaacs",
+          "id": "0000069"
+        },
+        {
+          "character": "Arthur Weasley",
+          "name": "Mark Williams",
+          "id": "0000082"
+        },
+        {
+          "character": "Hannah Abbott",
+          "name": "Charlotte Skeoch",
+          "id": "0000085"
+        },
+        {
+          "character": "Cornelius Fudge",
+          "name": "Robert Hardy",
+          "id": "0000092"
+        },
+        {
+          "character": "Moaning Myrtle",
+          "name": "Shirley Henderson",
+          "id": "0000095"
+        },
+        {
+          "character": "Albus Dumbledore",
+          "name": "Michael Gambon",
+          "id": "0000100"
+        },
+        {
+          "character": "Sirius Black",
+          "name": "Gary Oldman",
+          "id": "0000115"
+        },
+        {
+          "character": "Fleur Delacour",
+          "name": "Clémence Poésy",
+          "id": "0000145"
+        },
+        {
+          "character": "Viktor Krum",
+          "name": "Stanislav Ianevski",
+          "id": "0000146"
+        },
+        {
+          "character": "Parvati Patil",
+          "name": "Shefali Chowdhury",
+          "id": "0000150"
+        },
+        {
+          "character": "Igor Karkaroff",
+          "name": "Predrag Bjelac",
+          "id": "0000151"
+        },
+        {
+          "character": "Angelina Johnson",
+          "name": "Tiana Benjamin",
+          "id": "0000153"
+        },
+        {
+          "character": "Lord Voldemort (Tom Riddle)",
+          "name": "Ralph Fiennes",
+          "id": "0000165"
+        },
+        {
+          "character": "Heathcote Barbary",
+          "name": "Jason Buckle",
+          "id": "0000172"
+        },
+        {
+          "character": "Frank Bryce",
+          "name": "Eric Sykes",
+          "id": "0000173"
+        },
+        {
+          "character": "Cho Chang",
+          "name": "Katie Leung",
+          "id": "0000174"
+        },
+        {
+          "character": "Barty Crouch Jr",
+          "name": "Dvid Tennant",
+          "id": "0000175"
+        },
+        {
+          "character": "Barty Crouch Sr",
+          "name": "Roger Lloyd-Pack",
+          "id": "0000176"
+        },
+        {
+          "character": "Gideon Crumb",
+          "name": "Steven Claydown",
+          "id": "0000177"
+        },
+        {
+          "character": "Roger Davies",
+          "name": "Henry Lloyd-Hughes",
+          "id": "0000179"
+        },
+        {
+          "character": "Gabrielle Delacour",
+          "name": "Angelica Mandy",
+          "id": "0000180"
+        },
+        {
+          "character": "Amos Diggory",
+          "name": "Jeff Rawle",
+          "id": "0000181"
+        },
+        {
+          "character": "Cedric Diggory",
+          "name": "Robert Pattinson",
+          "id": "0000182"
+        },
+        {
+          "character": "Kirley Duke",
+          "name": "Jonny Greenwood",
+          "id": "0000183"
+        },
+        {
+          "character": "Olympe Maxime",
+          "name": "Francec de la Tour",
+          "id": "0000184"
+        },
+        {
+          "character": "Alastor 'Mad-Eye' Moody",
+          "name": "Brendan Gleeson",
+          "id": "0000185"
+        },
+        {
+          "character": "Padma Patil",
+          "name": "Afshan Azad",
+          "id": "0000186"
+        },
+        {
+          "character": "Rita Skeeter",
+          "name": "Miranda Richarson",
+          "id": "0000187"
+        },
+        {
+          "character": "Orsino Thruston",
+          "name": "Philip Selway",
+          "id": "0000188"
+        },
+        {
+          "character": "Donaghan Tremlett",
+          "name": "Steve Mackey",
+          "id": "0000189"
+        },
+        {
+          "character": "Myron Wagtail",
+          "name": "Jarvis Cocker",
+          "id": "0000190"
+        }
+      ],
+      "rating": 7.7,
+      "ratings-count": 756000,
+      "length": 157,
+      "year": 2005,
+      "categories": ["Adventure", "Family", "Fantasy"]
+    },
+    {
+      "id": "00005",
+      "name": "Harry Potter and the Order of the Phoenix",
+      "series": "Harry Potter",
+      "fontFamily": "Harry Potter",
+      "description": "With their warning about Lord Voldemort's return scoffed at, Harry and Dumbledore are targeted by the Wizard authorities as an authoritarian bureaucrat slowly seizes power at Hogwarts.",
+      "trailerVideo": "../data/trailers/HarryPotterAndTheSorcerersStone1.mp4",
+      "players": [
+        {
+          "character": "Harry Potter",
+          "name": "Daniel Radcliffe",
+          "id": "0000001"
+        },
+        {
+          "character": "Ron Weasley",
+          "name": "Rupert Grint",
+          "id": "0000002"
+        },
+        {
+          "character": "Hermione Granger",
+          "name": "Emma Watson",
+          "id": "0000003"
+        },
+        {
+          "character": "Vincent Crabbe",
+          "name": "Jamie Waylett",
+          "id": "0000008"
+        },
+        {
+          "character": "Dudley Dursley",
+          "name": "Harry Melling",
+          "id": "0000010"
+        },
+        {
+          "character": "Petunia Dursley",
+          "name": "Fiona Shaw",
+          "id": "0000011"
+        },
+        {
+          "character": "Vernon Dursley",
+          "name": "Richard Griffiths",
+          "id": "0000012"
+        },
+        {
+          "character": "Argus Filch",
+          "name": "David Bradley",
+          "id": "0000016"
+        },
+        {
+          "character": "Seamus Finnigan",
+          "name": "Devon Murray",
+          "id": "0000017"
+        },
+        {
+          "character": "Filius Flitwick",
+          "name": "Warwick Davis",
+          "id": "0000018"
+        },
+        {
+          "character": "Gregory Goyle",
+          "name": "Joshua Herdman",
+          "id": "0000020"
+        },
+        {
+          "character": "Rubeus Hagrid",
+          "name": "Robbie Coltrane",
+          "id": "0000022"
+        },
+        {
+          "character": "Neville Longbottom",
+          "name": "Matthew Lewis",
+          "id": "0000026"
+        },
+        {
+          "character": "Draco Malfoy",
+          "name": "Tom Felton",
+          "id": "0000027"
+        },
+        {
+          "character": "Minerva McGonagall",
+          "name": "Maggie Smith",
+          "id": "0000028"
+        },
+        {
+          "character": "James Potter",
+          "name": "Adrian Rawlins",
+          "id": "0000031"
+        },
+        {
+          "character": "Lily Potter",
+          "name": "Geraldine Somerville",
+          "id": "0000032"
+        },
+        {
+          "character": "Severus Snape",
+          "name": "Alan Rickman",
+          "id": "0000035"
+        },
+        {
+          "character": "Dean Thomas",
+          "name": "Alfred Enoch",
+          "id": "0000037"
+        },
+        {
+          "character": "Fred Weasley",
+          "name": "James Phelps",
+          "id": "0000040"
+        },
+        {
+          "character": "George Weasley",
+          "name": "Oliver Phelps",
+          "id": "0000041"
+        },
+        {
+          "character": "Ginny Weasley",
+          "name": "Bonnie Wright",
+          "id": "0000042"
+        },
+        {
+          "character": "Molly Weasley",
+          "name": "Julie Walters",
+          "id": "0000043"
+        },
+        {
+          "character": "Percy Weasley",
+          "name": "Chris Rankin",
+          "id": "0000044"
+        },
+        {
+          "character": "Lucius Malfoy",
+          "name": "Jason Isaacs",
+          "id": "0000069"
+        },
+        {
+          "character": "Arthur Weasley",
+          "name": "Mark Williams",
+          "id": "0000082"
+        },
+        {
+          "character": "Cornelius Fudge",
+          "name": "Robert Hardy",
+          "id": "0000092"
+        },
+        {
+          "character": "Albus Dumbledore",
+          "name": "Michael Gambon",
+          "id": "0000100"
+        },
+        {
+          "character": "Sirius Black",
+          "name": "Gary Oldman",
+          "id": "0000115"
+        },
+        {
+          "character": "Remus Lupin",
+          "name": "David Thewlis",
+          "id": "0000119"
+        },
+        {
+          "character": "Sybill Trelawney",
+          "name": "Emma Thompson",
+          "id": "0000127"
+        },
+        {
+          "character": "Parvati Patil",
+          "name": "Shefali Chowdhury",
+          "id": "0000150"
+        },
+        {
+          "character": "Lord Voldemort (Tom Riddle)",
+          "name": "Ralph Fiennes",
+          "id": "0000165"
+        },
+        {
+          "character": "Cho Chang",
+          "name": "Katie Leung",
+          "id": "0000174"
+        },
+        {
+          "character": "Cedric Diggory",
+          "name": "Robert Pattinson",
+          "id": "0000182"
+        },
+        {
+          "character": "Alastor 'Mad-Eye' Moody",
+          "name": "Brendan Gleeson",
+          "id": "0000185"
+        },
+        {
+          "character": "Padma Patil",
+          "name": "Afshan Azad",
+          "id": "0000186"
+        },
+        {
+          "character": "Alice Longbottom",
+          "name": "Lisa Wood",
+          "id": "0000208"
+        },
+        {
+          "character": "Frank Longbottom",
+          "name": "James Payton",
+          "id": "0000209"
+        },
+        {
+          "character": "Luna Lovegood",
+          "name": "Evanna Lynch",
+          "id": "0000210"
+        },
+        {
+          "character": "Magoriam",
+          "name": "Michael Wildman",
+          "id": "0000211"
+        },
+        {
+          "character": "Amelia Bones",
+          "name": "Sian Thomas",
+          "id": "0000215"
+        },
+        {
+          "character": "Jhon Dawlish",
+          "name": "Richard Leaf",
+          "id": "0000216"
+        },
+        {
+          "character": "Nymphadora Tonks",
+          "name": "Natalia Tena",
+          "id": "0000217"
+        },
+        {
+          "character": "Kreacher",
+          "name": "Timothy Bateson",
+          "id": "0000218"
+        },
+        {
+          "character": "Grawp",
+          "name": "Tony Maudsley",
+          "id": "0000219"
+        },
+        {
+          "character": "Wilhelmina Grubbly-Plank",
+          "name": "Apple Brook",
+          "id": "0000220"
+        },
+        {
+          "character": "Arabella Figg",
+          "name": "Kathryn Hunter",
+          "id": "0000221"
+        },
+        {
+          "character": "Bellatrix Lestrange",
+          "name": "Helena Bonham Carter",
+          "id": "0000222"
+        },
+        {
+          "character": "Elphias Doge",
+          "name": "Peter Cartwright",
+          "id": "0000223"
+        },
+        {
+          "character": "Aberforth Dumbledore",
+          "name": "Jim McManus",
+          "id": "0000224"
+        },
+        {
+          "character": "Mafalda Hopkirk",
+          "name": "Jessica Hynes",
+          "id": "0000225"
+        },
+        {
+          "character": "Dolores Umbridge",
+          "name": "Imelda Staunton",
+          "id": "0000234"
+        },
+        {
+          "character": "Rufus Scrimgeour",
+          "name": "Bill Nighy",
+          "id": "0000235"
+        },
+        {
+          "character": "Kingsley Shacklebolt",
+          "name": "George Harris",
+          "id": "0000244"
+        },
+        {
+          "character": "Alicia Spinnet",
+          "name": "Leilah Sutherland",
+          "id": "0000246"
+        }
+      ],
+      "rating": 7.5,
+      "ratings-count": 787000,
+      "length": 138,
+      "year": 2007,
+      "categories": ["Adventure", "Family", "Fantasy"]
+    },
+    {
+      "id": "00006",
+      "name": "Harry Potter and the Half-Blood Prince",
+      "series": "Harry Potter",
+      "fontFamily": "Harry Potter",
+      "description": "As Harry Potter begins his sixth year at Hogwarts, he discovers an old book marked as 'the property of the Half-Blood Prince' and begins to learn more about Lord Voldemort's dark past.",
+      "trailerVideo": "../data/trailers/HarryPotterAndTheSorcerersStone1.mp4",
+      "players": [
+        {
+          "character": "Harry Potter",
+          "name": "Daniel Radcliffe",
+          "id": "0000001"
+        },
+        {
+          "character": "Ron Weasley",
+          "name": "Rupert Grint",
+          "id": "0000002"
+        },
+        {
+          "character": "Hermione Granger",
+          "name": "Emma Watson",
+          "id": "0000003"
+        },
+        {
+          "character": "Vincent Crabbe",
+          "name": "Jamie Waylett",
+          "id": "0000008"
+        },
+        {
+          "character": "Argus Filch",
+          "name": "David Bradley",
+          "id": "0000016"
+        },
+        {
+          "character": "Seamus Finnigan",
+          "name": "Devon Murray",
+          "id": "0000017"
+        },
+        {
+          "character": "Filius Flitwick",
+          "name": "Warwick Davis",
+          "id": "0000018"
+        },
+        {
+          "character": "Gregory Goyle",
+          "name": "Joshua Herdman",
+          "id": "0000020"
+        },
+        {
+          "character": "Rubeus Hagrid",
+          "name": "Robbie Coltrane",
+          "id": "0000022"
+        },
+        {
+          "character": "Neville Longbottom",
+          "name": "Matthew Lewis",
+          "id": "0000026"
+        },
+        {
+          "character": "Draco Malfoy",
+          "name": "Tom Felton",
+          "id": "0000027"
+        },
+        {
+          "character": "Minerva McGonagall",
+          "name": "Maggie Smith",
+          "id": "0000028"
+        },
+        {
+          "character": "Lily Potter",
+          "name": "Geraldine Somerville",
+          "id": "0000032"
+        },
+        {
+          "character": "Severus Snape",
+          "name": "Alan Rickman",
+          "id": "0000035"
+        },
+        {
+          "character": "Dean Thomas",
+          "name": "Alfred Enoch",
+          "id": "0000037"
+        },
+        {
+          "character": "Fred Weasley",
+          "name": "James Phelps",
+          "id": "0000040"
+        },
+        {
+          "character": "George Weasley",
+          "name": "Oliver Phelps",
+          "id": "0000041"
+        },
+        {
+          "character": "Ginny Weasley",
+          "name": "Bonnie Wright",
+          "id": "0000042"
+        },
+        {
+          "character": "Molly Weasley",
+          "name": "Julie Walters",
+          "id": "0000043"
+        },
+        {
+          "character": "Poppy Pomfrey",
+          "name": "Gemma Jones",
+          "id": "0000074"
+        },
+        {
+          "character": "Arthur Weasley",
+          "name": "Mark Williams",
+          "id": "0000082"
+        },
+        {
+          "character": "Albus Dumbledore",
+          "name": "Michael Gambon",
+          "id": "0000100"
+        },
+        {
+          "character": "Remus Lupin",
+          "name": "David Thewlis",
+          "id": "0000119"
+        },
+        {
+          "character": "Parvati Patil",
+          "name": "Shefali Chowdhury",
+          "id": "0000150"
+        },
+        {
+          "character": "Cho Chang",
+          "name": "Katie Leung",
+          "id": "0000174"
+        },
+        {
+          "character": "Padma Patil",
+          "name": "Afshan Azad",
+          "id": "0000186"
+        },
+        {
+          "character": "Luna Lovegood",
+          "name": "Evanna Lynch",
+          "id": "0000210"
+        },
+        {
+          "character": "Nymphadora Tonks",
+          "name": "Natalia Tena",
+          "id": "0000217"
+        },
+        {
+          "character": "Bellatrix Lestrange",
+          "name": "Helena Bonham Carter",
+          "id": "0000222"
+        },
+        {
+          "character": "Rufus Scrimgeour",
+          "name": "Bill Nighy",
+          "id": "0000235"
+        },
+        {
+          "character": "Alicia Spinnet",
+          "name": "Leilah Sutherland",
+          "id": "0000246"
+        },
+        {
+          "character": "Katie Bell",
+          "name": "Georgina Leonidas",
+          "id": "0000251"
+        },
+        {
+          "character": "Bathilda Bagshot",
+          "name": "Hazel Douglas",
+          "id": "0000252"
+        },
+        {
+          "character": "Lavender Brown",
+          "name": "Jessie Cave",
+          "id": "0000253"
+        },
+        {
+          "character": "Pansy Parkinson",
+          "name": "Scarlett Byrne",
+          "id": "0000258"
+        },
+        {
+          "character": "Marcus Belby",
+          "name": "Robert Knox",
+          "id": "0000263"
+        },
+        {
+          "character": "Regulus Black",
+          "name": "Tom Moorcroft",
+          "id": "0000264"
+        },
+        {
+          "character": "Alecto Carrow",
+          "name": "Suzie Toase",
+          "id": "0000265"
+        },
+        {
+          "character": "Amycus Carrow",
+          "name": "Ralph Ineson",
+          "id": "0000266"
+        },
+        {
+          "character": "Fenrir Greyback",
+          "name": "Dave Legeno",
+          "id": "0000267"
+        },
+        {
+          "character": "Leanne",
+          "name": "Isabella Laughland",
+          "id": "0000268"
+        },
+        {
+          "character": "Narcissa Malfoy",
+          "name": "Helen McCrory",
+          "id": "0000269"
+        },
+        {
+          "character": "Cormac McLaggen",
+          "name": "Freddie Stroma",
+          "id": "0000270"
+        },
+        {
+          "character": "Romilda Vane",
+          "name": "Anna Shaffer",
+          "id": "0000271"
+        },
+        {
+          "character": "Blaise Zabini",
+          "name": "Louis Cordice",
+          "id": "0000272"
+        },
+        {
+          "character": "Horace Slughorn",
+          "name": "Jim Broadbent",
+          "id": "0000273"
+        },
+        {
+          "character": "Eldred Worple",
+          "name": "Paul Ritter",
+          "id": "0000274"
+        }
+      ],
+      "rating": 7.6,
+      "ratings-count": 754000,
+      "length": 153,
+      "year": 2009,
+      "categories": ["Adventure", "Family", "Fantasy"]
+    },
+    {
+      "id": "00007",
+      "name": "Harry Potter and the Deathly Hallows - Part 1",
+      "series": "Harry Potter",
+      "fontFamily": "Harry Potter",
+      "description": "As Harry, Ron, and Hermione race against time and evil to destroy the Horcruxes, they uncover the existence of the three most powerful objects in the wizarding world: the Deathly Hallows.",
+      "trailerVideo": "../data/trailers/HarryPotterAndTheSorcerersStone1.mp4",
+      "players": [
+        {
+          "character": "Harry Potter",
+          "name": "Daniel Radcliffe",
+          "id": "0000001"
+        },
+        {
+          "character": "Ron Weasley",
+          "name": "Rupert Grint",
+          "id": "0000002"
+        },
+        {
+          "character": "Hermione Granger",
+          "name": "Emma Watson",
+          "id": "0000003"
+        },
+        {
+          "character": "Dudley Dursley",
+          "name": "Harry Melling",
+          "id": "0000010"
+        },
+        {
+          "character": "Petunia Dursley",
+          "name": "Fiona Shaw",
+          "id": "0000011"
+        },
+        {
+          "character": "Vernon Dursley",
+          "name": "Richard Griffiths",
+          "id": "0000012"
+        },
+        {
+          "character": "Seamus Finnigan",
+          "name": "Devon Murray",
+          "id": "0000017"
+        },
+        {
+          "character": "Griphook",
+          "name": "Warwick Davis",
+          "id": "0000018"
+        },
+        {
+          "character": "Gregory Goyle",
+          "name": "Joshua Herdman",
+          "id": "0000020"
+        },
+        {
+          "character": "Rubeus Hagrid",
+          "name": "Robbie Coltrane",
+          "id": "0000022"
+        },
+        {
+          "character": "Neville Longbottom",
+          "name": "Matthew Lewis",
+          "id": "0000026"
+        },
+        {
+          "character": "Draco Malfoy",
+          "name": "Tom Felton",
+          "id": "0000027"
+        },
+        {
+          "character": "Garrick Ollivander",
+          "name": "John Hurt",
+          "id": "0000030"
+        },
+        {
+          "character": "James Potter",
+          "name": "Adrian Rawlins",
+          "id": "0000031"
+        },
+        {
+          "character": "Lily Potter",
+          "name": "Geraldine Somerville",
+          "id": "0000032"
+        },
+        {
+          "character": "Severus Snape",
+          "name": "Alan Rickman",
+          "id": "0000035"
+        },
+        {
+          "character": "Fred Weasley",
+          "name": "James Phelps",
+          "id": "0000040"
+        },
+        {
+          "character": "George Weasley",
+          "name": "Oliver Phelps",
+          "id": "0000041"
+        },
+        {
+          "character": "Ginny Weasley",
+          "name": "Bonnie Wright",
+          "id": "0000042"
+        },
+        {
+          "character": "Molly Weasley",
+          "name": "Julie Walters",
+          "id": "0000043"
+        },
+        {
+          "character": "Lucius Malfoy",
+          "name": "Jason Isaacs",
+          "id": "0000069"
+        },
+        {
+          "character": "Arthur Weasley",
+          "name": "Mark Williams",
+          "id": "0000082"
+        },
+        {
+          "character": "Dobby",
+          "name": "Toby Jones",
+          "id": "0000090"
+        },
+        {
+          "character": "Albus Dumbledore",
+          "name": "Michael Gambon",
+          "id": "0000100"
+        },
+        {
+          "character": "Remus Lupin",
+          "name": "David Thewlis",
+          "id": "0000119"
+        },
+        {
+          "character": "Fleur Delacour",
+          "name": "Clémence Poésy",
+          "id": "0000145"
+        },
+        {
+          "character": "Viktor Krum",
+          "name": "Stanislav Ianevski",
+          "id": "0000146"
+        },
+        {
+          "character": "Lord Voldemort (Tom Riddle)",
+          "name": "Ralph Fiennes",
+          "id": "0000165"
+        },
+        {
+          "character": "Cho Chang",
+          "name": "Katie Leung",
+          "id": "0000174"
+        },
+        {
+          "character": "Olympe Maxime",
+          "name": "Francec de la Tour",
+          "id": "0000184"
+        },
+        {
+          "character": "Alastor 'Mad-Eye' Moody",
+          "name": "Brendan Gleeson",
+          "id": "0000185"
+        },
+        {
+          "character": "Padma Patil",
+          "name": "Afshan Azad",
+          "id": "0000186"
+        },
+        {
+          "character": "Luna Lovegood",
+          "name": "Evanna Lynch",
+          "id": "0000210"
+        },
+        {
+          "character": "Nymphadora Tonks",
+          "name": "Natalia Tena",
+          "id": "0000217"
+        },
+        {
+          "character": "Bellatrix Lestrange",
+          "name": "Helena Bonham Carter",
+          "id": "0000222"
+        },
+        {
+          "character": "Dolores Umbridge",
+          "name": "Imelda Staunton",
+          "id": "0000234"
+        },
+        {
+          "character": "Rufus Scrimgeour",
+          "name": "Bill Nighy",
+          "id": "0000235"
+        },
+        {
+          "character": "Kingsley Shacklebolt",
+          "name": "George Harris",
+          "id": "0000244"
+        },
+        {
+          "character": "Alicia Spinnet",
+          "name": "Leilah Sutherland",
+          "id": "0000246"
+        },
+        {
+          "character": "Katie Bell",
+          "name": "Georgina Leonidas",
+          "id": "0000251"
+        },
+        {
+          "character": "Bathilda Bagshot",
+          "name": "Hazel Douglas",
+          "id": "0000252"
+        },
+        {
+          "character": "Lavender Brown",
+          "name": "Jessie Cave",
+          "id": "0000253"
+        },
+        {
+          "character": "Pansy Parkinson",
+          "name": "Scarlett Byrne",
+          "id": "0000258"
+        },
+        {
+          "character": "Alecto Carrow",
+          "name": "Suzie Toase",
+          "id": "0000265"
+        },
+        {
+          "character": "Amycus Carrow",
+          "name": "Ralph Ineson",
+          "id": "0000266"
+        },
+        {
+          "character": "Fenrir Greyback",
+          "name": "Dave Legeno",
+          "id": "0000267"
+        },
+        {
+          "character": "Leanne",
+          "name": "Isabella Laughland",
+          "id": "0000268"
+        },
+        {
+          "character": "Narcissa Malfoy",
+          "name": "Helen McCrory",
+          "id": "0000269"
+        },
+        {
+          "character": "Cormac McLaggen",
+          "name": "Freddie Stroma",
+          "id": "0000270"
+        },
+        {
+          "character": "Romilda Vane",
+          "name": "Anna Shaffer",
+          "id": "0000271"
+        },
+        {
+          "character": "Blaise Zabini",
+          "name": "Louis Cordice",
+          "id": "0000272"
+        },
+        {
+          "character": "Mr Granger",
+          "name": "Ian Kelly",
+          "id": "0000304"
+        },
+        {
+          "character": "Mrs Granger",
+          "name": "Michelle Fairley",
+          "id": "0000305"
+        },
+        {
+          "character": "Charity Burbage",
+          "name": "Carolyn Pickles",
+          "id": "0000312"
+        },
+        {
+          "character": "Mary Cattermole",
+          "name": "Kate Fleetwood",
+          "id": "0000313"
+        },
+        {
+          "character": "Reginald Cattermole",
+          "name": "Steffan Rhodri",
+          "id": "0000314"
+        },
+        {
+          "character": "Mundungus Fletcher",
+          "name": "Andy Linden",
+          "id": "0000315"
+        },
+        {
+          "character": "Gregorovitch",
+          "name": "Rade Šerbedžija",
+          "id": "0000316"
+        },
+        {
+          "character": "Gellert Grindelwald",
+          "name": "Jamie Campbell Bower",
+          "id": "0000317"
+        },
+        {
+          "character": "Scabior",
+          "name": "Nick Moran",
+          "id": "0000318"
+        },
+        {
+          "character": "Pius Thicknesse",
+          "name": "Guy Henry",
+          "id": "0000319"
+        },
+        {
+          "character": "Xenophilius Lovegood",
+          "name": "Rhys Ifans",
+          "id": "0000320"
+        },
+        {
+          "character": "Auntie Muriel",
+          "name": "Matyelok Gibbs",
+          "id": "0000321"
+        },
+        {
+          "character": "Albert Runcorn",
+          "name": "David O'Hara",
+          "id": "0000322"
+        },
+        {
+          "character": "Corban Yaxley",
+          "name": "Peter Mullan",
+          "id": "0000323"
+        },
+        {
+          "character": "Elphias Doge",
+          "name": "David Ryall",
+          "id": "0000339"
+        },
+        {
+          "character": "Kreacher",
+          "name": "Simon McBurney",
+          "id": "0000343"
+        },
+        {
+          "character": "Mafalda Hopkirk",
+          "name": "Sophie Thompson",
+          "id": "0000347"
+        },
+        {
+          "character": "Bill Weasley",
+          "name": "Domhnall Gleeson",
+          "id": "0000353"
+        }
+      ],
+      "rating": 7.7,
+      "ratings-count": 753000,
+      "length": 146,
+      "year": 2010,
+      "categories": ["Adventure", "Family", "Fantasy"]
+    },
+    {
+      "id": "00008",
+      "name": "Harry Potter and the Deathly Hallows - Part 2",
+      "series": "Harry Potter",
+      "fontFamily": "Harry Potter",
+      "description": "Harry, Ron, and Hermione search for Voldemort's remaining Horcruxes in their effort to destroy the Dark Lord as the final battle rages on at Hogwarts.",
+      "trailerVideo": "../data/trailers/HarryPotterAndTheSorcerersStone1.mp4",
+      "players": [
+        {
+          "character": "Harry Potter",
+          "name": "Daniel Radcliffe",
+          "id": "0000001"
+        },
+        {
+          "character": "Ron Weasley",
+          "name": "Rupert Grint",
+          "id": "0000002"
+        },
+        {
+          "character": "Hermione Granger",
+          "name": "Emma Watson",
+          "id": "0000003"
+        },
+        {
+          "character": "Petunia Dursley",
+          "name": "Fiona Shaw",
+          "id": "0000011"
+        },
+        {
+          "character": "Argus Filch",
+          "name": "David Bradley",
+          "id": "0000016"
+        },
+        {
+          "character": "Seamus Finnigan",
+          "name": "Devon Murray",
+          "id": "0000017"
+        },
+        {
+          "character": "Filius Flitwick",
+          "name": "Warwick Davis",
+          "id": "0000018"
+        },
+        {
+          "character": "Griphook",
+          "name": "Warwick Davis",
+          "id": "0000018"
+        },
+        {
+          "character": "Gregory Goyle",
+          "name": "Joshua Herdman",
+          "id": "0000020"
+        },
+        {
+          "character": "Rubeus Hagrid",
+          "name": "Robbie Coltrane",
+          "id": "0000022"
+        },
+        {
+          "character": "Neville Longbottom",
+          "name": "Matthew Lewis",
+          "id": "0000026"
+        },
+        {
+          "character": "Draco Malfoy",
+          "name": "Tom Felton",
+          "id": "0000027"
+        },
+        {
+          "character": "Minerva McGonagall",
+          "name": "Maggie Smith",
+          "id": "0000028"
+        },
+        {
+          "character": "Garrick Ollivander",
+          "name": "John Hurt",
+          "id": "0000030"
+        },
+        {
+          "character": "James Potter",
+          "name": "Adrian Rawlins",
+          "id": "0000031"
+        },
+        {
+          "character": "Lily Potter",
+          "name": "Geraldine Somerville",
+          "id": "0000032"
+        },
+        {
+          "character": "Quirinus Quirrell",
+          "name": "Ian Hart",
+          "id": "0000033"
+        },
+        {
+          "character": "Helena Ravenclaw (The Grey Lady)",
+          "name": "Nina Young",
+          "id": "0000034"
+        },
+        {
+          "character": "Severus Snape",
+          "name": "Alan Rickman",
+          "id": "0000035"
+        },
+        {
+          "character": "Sorting Hat",
+          "name": "Leslie Phillips",
+          "id": "0000036"
+        },
+        {
+          "character": "Dean Thomas",
+          "name": "Alfred Enoch",
+          "id": "0000037"
+        },
+        {
+          "character": "Fred Weasley",
+          "name": "James Phelps",
+          "id": "0000040"
+        },
+        {
+          "character": "George Weasley",
+          "name": "Oliver Phelps",
+          "id": "0000041"
+        },
+        {
+          "character": "Ginny Weasley",
+          "name": "Bonnie Wright",
+          "id": "0000042"
+        },
+        {
+          "character": "Molly Weasley",
+          "name": "Julie Walters",
+          "id": "0000043"
+        },
+        {
+          "character": "Percy Weasley",
+          "name": "Chris Rankin",
+          "id": "0000044"
+        },
+        {
+          "character": "Oliver Wood",
+          "name": "Sean Biggerstaff",
+          "id": "0000045"
+        },
+        {
+          "character": "Lucius Malfoy",
+          "name": "Jason Isaacs",
+          "id": "0000069"
+        },
+        {
+          "character": "Poppy Pomfrey",
+          "name": "Gemma Jones",
+          "id": "0000074"
+        },
+        {
+          "character": "Pomona Sprout",
+          "name": "Miriam Margolyes",
+          "id": "0000077"
+        },
+        {
+          "character": "Arthur Weasley",
+          "name": "Mark Williams",
+          "id": "0000082"
+        },
+        {
+          "character": "Albus Dumbledore",
+          "name": "Michael Gambon",
+          "id": "0000100"
+        },
+        {
+          "character": "Sirius Black",
+          "name": "Gary Oldman",
+          "id": "0000115"
+        },
+        {
+          "character": "Remus Lupin",
+          "name": "David Thewlis",
+          "id": "0000119"
+        },
+        {
+          "character": "Sybill Trelawney",
+          "name": "Emma Thompson",
+          "id": "0000127"
+        },
+        {
+          "character": "Fleur Delacour",
+          "name": "Clémence Poésy",
+          "id": "0000145"
+        },
+        {
+          "character": "Lord Voldemort (Tom Riddle)",
+          "name": "Ralph Fiennes",
+          "id": "0000165"
+        },
+        {
+          "character": "Cho Chang",
+          "name": "Katie Leung",
+          "id": "0000174"
+        },
+        {
+          "character": "Padma Patil",
+          "name": "Afshan Azad",
+          "id": "0000186"
+        },
+        {
+          "character": "Luna Lovegood",
+          "name": "Evanna Lynch",
+          "id": "0000210"
+        },
+        {
+          "character": "Nymphadora Tonks",
+          "name": "Natalia Tena",
+          "id": "0000217"
+        },
+        {
+          "character": "Bellatrix Lestrange",
+          "name": "Helena Bonham Carter",
+          "id": "0000222"
+        },
+        {
+          "character": "Rufus Scrimgeour",
+          "name": "Bill Nighy",
+          "id": "0000235"
+        },
+        {
+          "character": "Kingsley Shacklebolt",
+          "name": "George Harris",
+          "id": "0000244"
+        },
+        {
+          "character": "Alicia Spinnet",
+          "name": "Leilah Sutherland",
+          "id": "0000246"
+        },
+        {
+          "character": "Katie Bell",
+          "name": "Georgina Leonidas",
+          "id": "0000251"
+        },
+        {
+          "character": "Bathilda Bagshot",
+          "name": "Hazel Douglas",
+          "id": "0000252"
+        },
+        {
+          "character": "Lavender Brown",
+          "name": "Jessie Cave",
+          "id": "0000253"
+        },
+        {
+          "character": "Pansy Parkinson",
+          "name": "Scarlett Byrne",
+          "id": "0000258"
+        },
+        {
+          "character": "Alecto Carrow",
+          "name": "Suzie Toase",
+          "id": "0000265"
+        },
+        {
+          "character": "Amycus Carrow",
+          "name": "Ralph Ineson",
+          "id": "0000266"
+        },
+        {
+          "character": "Fenrir Greyback",
+          "name": "Dave Legeno",
+          "id": "0000267"
+        },
+        {
+          "character": "Leanne",
+          "name": "Isabella Laughland",
+          "id": "0000268"
+        },
+        {
+          "character": "Narcissa Malfoy",
+          "name": "Helen McCrory",
+          "id": "0000269"
+        },
+        {
+          "character": "Cormac McLaggen",
+          "name": "Freddie Stroma",
+          "id": "0000270"
+        },
+        {
+          "character": "Romilda Vane",
+          "name": "Anna Shaffer",
+          "id": "0000271"
+        },
+        {
+          "character": "Blaise Zabini",
+          "name": "Louis Cordice",
+          "id": "0000272"
+        },
+        {
+          "character": "Horace Slughorn",
+          "name": "Jim Broadbent",
+          "id": "0000273"
+        },
+        {
+          "character": "Scabior",
+          "name": "Nick Moran",
+          "id": "0000318"
+        },
+        {
+          "character": "Pius Thicknesse",
+          "name": "Guy Henry",
+          "id": "0000319"
+        },
+        {
+          "character": "Bill Weasley",
+          "name": "Domhnall Gleeson",
+          "id": "0000353"
+        },
+        {
+          "character": "Bogrod",
+          "name": "Jon Key",
+          "id": "0000385"
+        },
+        {
+          "character": "Ariana Dumbledore",
+          "name": "Hebe Beardsall",
+          "id": "0000386"
+        },
+        {
+          "character": "Hugo Granger-Weasley",
+          "name": "Ryan Turner",
+          "id": "0000387"
+        },
+        {
+          "character": "Rose Granger-Weasley",
+          "name": "Helena Barlow",
+          "id": "0000388"
+        },
+        {
+          "character": "Astoria Greengrass",
+          "name": "Jade Gardon",
+          "id": "0000389"
+        },
+        {
+          "character": "Scorpius Malfoy",
+          "name": "Bertie Gilbert",
+          "id": "0000390"
+        },
+        {
+          "character": "Albus Severus Potter",
+          "name": "Arthur Bowen",
+          "id": "0000391"
+        },
+        {
+          "character": "James Sirius Potter",
+          "name": "Will Dunn",
+          "id": "0000392"
+        },
+        {
+          "character": "Lily Luna Potter",
+          "name": "Daphne de Beistegui",
+          "id": "0000393"
+        },
+        {
+          "character": "Aberforth Dumbledore",
+          "name": "Ciarán Hinds",
+          "id": "0000397"
+        }
+      ],
+      "rating": 8.1,
+      "ratings-count": 879000,
+      "length": 130,
+      "year": 2011,
+      "categories": ["Adventure", "Family", "Fantasy"]
+    }
+  ]
+}

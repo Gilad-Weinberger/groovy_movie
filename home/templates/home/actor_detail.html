@@ -1,0 +1,169 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Groovy Movie | {{ actor.name }}</title>
+    <link rel="stylesheet" href="{% static 'scss/actor_detail.css' %}" />
+    <link rel="shortcut icon" href="{% static 'images/favicon.png' %}" type="image/x-icon">
+    <link
+      rel="stylesheet"
+      data-purpose="Layout StyleSheet"
+      title="Web Awesome"
+      href="/css/app-wa-9a55d8748fd46de7b7977d9ee8dee7a4.css?vsn=d"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.4.2/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-solid.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-regular.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-light.css"
+    />
+  </head>
+  <body>
+    <div class="main-screen">
+      <div class="navbar">
+        <div class="left">
+          <a href="{% url 'home' %}" class="logo-link">
+            <img
+              src="{% static 'images/logo.png' %}"
+              alt="Groovy Movie"
+              class="logo"
+            />
+          </a>
+          <p class="categories">
+            <i class="fa-solid fa-grid-2"></i>
+            Categories
+          </p>
+          <p class="online-cinema">Online Cinema</p>
+          <p class="celcebs">Celebs</p>
+          <p class="commuinty">Community</p>
+        </div>
+        <div class="right">
+          <div class="bell">
+            <div class="bell-box">
+              <i class="fa-light fa-bell"></i>
+            </div>
+            <div class="bell-count-box">
+              <p class="bell-count">0</p>
+            </div>
+          </div>
+          <div class="profile">
+            <img
+              src="{% static 'images/profile-image.jpg' %}"
+              alt=""
+              class="image"
+            />
+            <div class="text">
+              <p class="welcome">Hi, welcome</p>
+              <p class="name">Gilad Weinberger</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <img
+          src="{{ actor.image.url }}"
+          alt="Actor Image"
+          class="actor-image"
+        />
+        <div class="actor-details">
+          <h1>{{ actor.name }}</h1>
+          <p>{{ actor.get_gender_display }}</p>
+        </div>
+        <div class="movie-gallery">
+          <button class="prev-btn">
+            <i class="fa-solid fa-arrow-left"></i>
+          </button>
+          <div class="movie-list">
+            {% for movie in actor.movies_played %}
+            <div class="movie-item">
+              <a
+                href="{% url 'home' %}?mainMovie={{ movie.movie_id }}"
+                class="movie-link"
+              >
+                <img src="{{ movie.image.url }}" alt="{{ movie.name }}" />
+                <p class="movie-name">{{ movie.name }}</p>
+              </a>
+            </div>
+            {% endfor %}
+          </div>
+          <button class="next-btn">
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        const movieList = $(".movie-list");
+        const movieItems = $(".movie-item");
+        const prevBtn = $(".prev-btn");
+        const nextBtn = $(".next-btn");
+        const moviesToShow = 3;
+        let currentIdx = 0;
+
+        function updateVisibility() {
+          movieItems.hide();
+          movieItems.slice(currentIdx, currentIdx + moviesToShow).show();
+        }
+
+        movieItems.click(function () {
+          const clickedIdx = movieItems.index(this);
+          currentIdx = clickedIdx;
+          updateVisibility();
+          const clickedMovieName = $(this).find(".movie-name").text();
+          const clickedMovieDescription = $(this)
+            .find(".movie-description")
+            .text();
+          const clickedMovieImage = $(this).find("img").attr("src");
+          setMainMovie(
+            clickedMovieName,
+            clickedMovieDescription,
+            clickedMovieImage
+          );
+        });
+
+        prevBtn.click(function () {
+          if (currentIdx > 0) {
+            currentIdx -= 1;
+            movieItems[currentIdx].scrollIntoView({
+              behavior: "smooth",
+              block: "start",
+            });
+            updateVisibility();
+          }
+        });
+
+        nextBtn.click(function () {
+          if (currentIdx < movieItems.length - moviesToShow) {
+            currentIdx += 1;
+            movieItems[currentIdx].scrollIntoView({
+              behavior: "smooth",
+              block: "start",
+            });
+            updateVisibility();
+          }
+        });
+
+        function setMainMovie(name, description, image) {
+          $(".main-movie .movie-title").text(name);
+          $(".main-movie .movie-description").text(description);
+          $(".main-movie img").attr("src", image);
+        }
+
+        updateVisibility();
+      });
+    </script>
+  </body>
+</html>

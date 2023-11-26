@@ -1,0 +1,194 @@
+{% load static %}
+{% load custom_filters %}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Groovy Movie | Home</title>
+    <link rel="stylesheet" href="{% static 'scss/home_new2.css' %}" />
+    <link rel="shortcut icon" href="{% static 'images/favicon.png' %}" type="image/x-icon">
+    <link
+      rel="stylesheet"
+      data-purpose="Layout StyleSheet"
+      title="Web Awesome"
+      href="/css/app-wa-9a55d8748fd46de7b7977d9ee8dee7a4.css?vsn=d"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.4.2/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-solid.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-regular.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-light.css"
+    />
+  </head>
+  <body>
+    <div class="home">
+      <div class="main-screen">
+        <div class="video-container">
+          <video
+            src="{{ videoSource }}"
+            class="video-trailer"
+            loop
+            preload="auto"
+          ></video>
+        </div>
+        <div class="navbar">
+          <div class="left">
+            <a href="{% url 'home' %}" class="logo-link">
+              <img
+                src="{% static 'images/logo.png' %}"
+                alt="Groovy Movie"
+                class="logo"
+              />
+            </a>
+            <p class="categories">
+              <i class="fa-solid fa-grid-2"></i>
+              Categories
+            </p>
+            <p class="online-cinema">Online Cinema</p>
+            <p class="celcebs">Celebs</p>
+            <p class="commuinty">Community</p>
+          </div>
+          <div class="right">
+            <div class="bell">
+              <div class="bell-box">
+                <i class="fa-light fa-bell"></i>
+              </div>
+              <div class="bell-count-box">
+                <p class="bell-count">0</p>
+              </div>
+            </div>
+            <div class="profile">
+              <img
+                src="{% static 'images/profile-image.jpg' %}"
+                alt=""
+                class="image"
+              />
+              <div class="text">
+                <p class="welcome">Hi, welcome</p>
+                <p class="name">Gilad Weinberger</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="main-movie">
+          <div class="titles">
+            <h1 class="title" style="font-family: {{ mainMovie.fontFamily }}">
+              {{ mainMovie.name }}
+            </h1>
+            {% if mainMovie.ageLimit %}
+            <div class="age-limit-box">
+              <p class="age-limit">{{ mainMovie.ageLimit }}</p>
+            </div>
+            {% endif %}
+          </div>
+          <p class="description">{{ mainMovie.description }}</p>
+          <div class="actors">
+            {% for actor_role in mainMovie.actor_roles.all %}
+              {% for actor in actor_role.actors.all %}
+                {% if actor.image %}
+                  <div class="actor">
+                    <a href="{% url 'actor_detail' actor.actor_id %}">
+                      <img src="{{ actor.image.url }}" class="image" alt="{{ actor.name }}" />
+                    </a>
+                    <p class="name">{{ actor.name.split.0 }}</p>
+                  </div>
+                {% endif %}
+              {% endfor %}
+            {% endfor %}
+            <div class="actor">
+              <div class="plus-box">
+                <p class="plus">+</p>
+              </div>
+              <p class="name more">more</p>
+            </div>
+          </div>             
+          <div class="details">
+            <div class="rating">
+              <h1 class="actual">{{ mainMovie.rating }}</h1>
+              <p class="out-of-ten">/ 10</p>
+            </div>
+            <p class="length">
+              <i class="fa-sharp fa-regular fa-clock"></i>
+              {{ lengthInHours }}h {{ minutes }}m
+            </p>
+            <p class="year">
+              <i class="fa-light fa-calendar-days"></i>
+              {{ mainMovie.year }}
+            </p>
+          </div>
+          <div class="categories">
+            {% for category in mainMovie.categories.all|slice:":3" %}
+            <p class="category">{{ category }}</p>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+      {% if mainSeries %}
+        <div class="main-series">
+          <h1 class="title">{{ mainSeries.name }} Series Movies</h1>
+          <div class="movies">
+            {% for movie in mainSeries.series_movies %}
+              <div class="movie">
+                <video class="trailer" src="{{ movie.trailerVideo.url }}" loop preload="auto"></video>
+                <div class="movie-info show-info">
+                  <p class="name">{{ movie.name|custom_mini_movie_name:mainSeries.name }}</p>
+                  <div class="rating">
+                    <h1 class="actual">{{ movie.rating }}</h1>
+                    <p class="out-of-ten">/ 10</p>
+                  </div>
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      {% endif %}
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        const videoElement = $(".video-trailer")[0];
+        const videoContainer = $(".video-container");
+    
+        function handleVideoClick() {
+          if (videoElement.paused) {
+            videoElement.play();
+            videoContainer.removeClass("paused").addClass("playing");
+          } else {
+            videoElement.pause();
+            videoContainer.removeClass("playing").addClass("paused");
+          }
+        }
+    
+        videoContainer.on("click", handleVideoClick);
+    
+        let currentTrailer = null;
+    
+        $(".trailer").click(function () {
+          const trailerVideo = $(this)[0];
+          const movieInfo = $(this).siblings('.movie-info');
+          if (currentTrailer && currentTrailer !== trailerVideo) {
+            currentTrailer.pause();
+          }
+          currentTrailer = trailerVideo;
+          if (trailerVideo.paused) {
+            trailerVideo.play();
+            movieInfo.removeClass("show-info").addClass("hide-info");
+          } else {
+            trailerVideo.pause();
+            movieInfo.removeClass("hide-info").addClass("show-info");
+          }
+        });
+      });
+    </script>    
+  </body>
+</html>
