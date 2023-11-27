@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&family=Rubik+Spray+Paint&display=swap");
+@import url("https://fonts.cdnfonts.com/css/harry-potter");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  height: calc(100vh - 70px);
+  background-color: black;
+  color: white;
+}
+
+.main-screen .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.02));
+  color: white;
+  height: 50px; /* Increase the height to accommodate bigger elements */
+  left: 0px;
+  top: 0px;
+  padding: 16px 30px 0px 38px;
+  width: calc(100vw - 68px);
+  z-index: 12;
+}
+.main-screen .navbar .left {
+  display: flex;
+  align-items: center;
+}
+.main-screen .navbar .left .logo-link {
+  display: flex;
+  align-items: center;
+}
+.main-screen .navbar .left .logo-link .logo {
+  height: 35px; /* Increase the logo height to match the navbar height */
+  margin-right: 15px;
+}
+.main-screen .navbar .left p {
+  font-size: 16px; /* Increase the font size for the left section */
+  margin-left: 15px;
+}
+.main-screen .navbar .left .categories {
+  display: flex;
+  align-items: center;
+  margin: 0px 15px;
+  font-size: 14px; /* Increase the font size for categories */
+}
+.main-screen .navbar .left .categories i {
+  font-size: 20px; /* Increase the font size for the icon */
+  margin-right: 4px;
+}
+.main-screen .navbar .right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.main-screen .navbar .right .bell {
+  display: flex;
+}
+.main-screen .navbar .right .bell .bell-box {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(51, 50, 50, 0.85);
+  border-radius: 50%;
+}
+.main-screen .navbar .right .bell .bell-box i {
+  font-size: 20px; /* Increase the font size for the bell icon */
+}
+.main-screen .navbar .right .bell .bell-count-box {
+  background-color: rgb(200, 158, 22);
+  height: 25px; /* Increase the height to match the bell count box size */
+  width: 25px; /* Increase the width to match the bell count box size */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-left: -12.5px; /* Adjust the margin to center the bell count box */
+}
+.main-screen .navbar .right .bell .bell-count-box .bell-count {
+  font-size: 14px; /* Increase the font size for the bell count */
+}
+.main-screen .navbar .right .profile {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+.main-screen .navbar .right .profile .image {
+  height: 50px; /* Increase the image height to match the navbar height */
+  width: 50px; /* Increase the image width to match the navbar height */
+  border-radius: 50%;
+}
+.main-screen .navbar .right .profile .text {
+  margin-left: 10px;
+}
+.main-screen .navbar .right .profile .text .welcome {
+  font-size: 14px; /* Increase the font size for the welcome text */
+  margin: 0px;
+  color: #dfdfdf;
+}
+.main-screen .navbar .right .profile .text .name {
+  font-size: 16px; /* Increase the font size for the name text */
+  margin: 0px;
+  font-weight: 500;
+}
+.main-screen .content {
+  position: relative;
+  z-index: 2;
+  display: flex; /* Flex container to align image and text */
+  align-items: center; /* Center vertically */
+  padding: 50px 36px; /* Add padding to space content from edges */
+}
+.main-screen .content .actor-image {
+  width: 300px; /* Set the width of the image */
+  height: 450px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center center;
+     object-position: center center;
+  border-radius: 15px; /* Apply border radius */
+  margin-right: 40px; /* Add spacing between image and text */
+}
+.main-screen .content .actor-details {
+  flex: 1; /* Allow details to take remaining space */
+}
+.main-screen .content .movie-gallery {
+  display: flex;
+  align-items: center;
+  margin: 20px 0px 0px 10px;
+  overflow: hidden;
+}
+.main-screen .content .movie-gallery .prev-btn,
+.main-screen .content .movie-gallery .next-btn {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: white;
+  font-size: 40px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  outline: none;
+}
+.main-screen .content .movie-gallery .prev-btn {
+  margin-right: 10px; /* Add spacing between buttons */
+}
+.main-screen .content .movie-gallery .next-btn {
+  margin-left: 10px; /* Add spacing between buttons */
+}
+.main-screen .content .movie-gallery .movie-list {
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  margin-bottom: 10px;
+  scroll-padding: 0 20px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+.main-screen .content .movie-gallery .movie-list .movie-item {
+  flex: 0 0 auto;
+  width: 240px;
+  margin-right: 20px;
+  scroll-snap-align: start;
+  position: relative;
+  text-decoration: none;
+}
+.main-screen .content .movie-gallery .movie-list .movie-item .movie-link {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-screen .content .movie-gallery .movie-list .movie-item .movie-link img {
+  width: 100%;
+  height: 176.0869565208px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.main-screen .content .movie-gallery .movie-list .movie-item .movie-link .movie-name {
+  margin-top: 10px;
+  font-size: 17px;
+  max-width: 210px;
+  text-align: center;
+  color: white;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.44, rgb(255, 214, 77)), color-stop(0.72, rgb(255, 179, 71)), color-stop(0.86, rgb(255, 140, 0)));
+}/*# sourceMappingURL=actor_detail.css.map */
