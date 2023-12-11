@@ -12,33 +12,30 @@ def get_random_main_movie():
 def Home(request: HttpRequest):
     actors = list(Actor.objects.all())
     
-    main_movie_id = request.GET.get('mainMovie')
+    # main_movie_id = request.GET.get('mainMovie')
     
-    if main_movie_id:
-        main_movie = Movie.objects.filter(movie_id=main_movie_id).first()
-    else:
-        main_movie = get_random_main_movie()
+    # if main_movie_id:
+    #     main_movie = Movie.objects.filter(movie_id=main_movie_id).first()
+    # else:
+    #     main_movie = get_random_main_movie()
     
-    main_series = main_movie.series
+    # main_series = main_movie.series
 
     video_source = ''
     length_in_hours = 0
     minutes = 0
-    
-    if main_movie:
-        main_series = main_movie.series
-        video_source = main_movie.trailerVideo.url
-        length_in_hours = int(main_movie.length / 60)
-        minutes = main_movie.length % 60
 
     context = {
         'actors': actors,
-        'mainMovie': main_movie,
-        'mainSeries': main_series,
         'videoSource': video_source,
         'lengthInHours': length_in_hours,
         'minutes': minutes,
     }
+
+    # con = {
+    #     'mainMovie': main_movie,
+    #     'mainSeries': main_series,
+    # }
 
     return render(request, 'home/home.html', context)
 
