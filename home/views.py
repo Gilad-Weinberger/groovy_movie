@@ -19,9 +19,7 @@ def Home(request: HttpRequest):
     else:
         main_movie = get_random_main_movie()
     
-    main_series = None
-    if main_movie.series:
-        main_series = main_movie.series
+    main_series = main_movie.series
 
     video_source = ''
     length_in_hours = 0
